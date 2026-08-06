@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:all": "npx concurrently \"npm run dev\" \"cd ../../forensicdoc-backend && python manage.py runserver\"",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
