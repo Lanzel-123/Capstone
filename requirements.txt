@@ -1,6 +1,8 @@
 Django
 gunicorn
 djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
 celery
 python-dotenv
 pypdf
