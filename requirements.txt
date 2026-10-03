@@ -1,0 +1,8 @@
+Django
+gunicorn
+djangorestframework
+celery
+python-dotenv
+pypdf
+python-docx
+psycopg2-binary
